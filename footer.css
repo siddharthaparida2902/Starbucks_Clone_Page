@@ -1,0 +1,141 @@
+footer{
+  padding: 24px 0;
+  box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);;
+}
+
+.footer-container{
+  padding: 0 40px;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-container .links-container{
+  width: 190px;
+  margin-right: 32px;
+}
+
+.footer-container .links-container h3{
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28.5px;
+  margin-bottom: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.footer-container .links-container ul{
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container .links-container ul li{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 8px;
+  padding: 8px 0;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.footer-container .links-container ul li a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.footer-container .links-container ul li a:hover{
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+}
+
+.social-media-links-container{
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.social-media-links-container ul{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-links-container ul li{
+  height: 51px;
+  width: 44px;
+  padding-right: 4px;
+}
+
+.social-media-links-container ul li a{
+  height: 44px;
+  width: 44px;
+}
+
+.social-media-links-container ul li a i{
+  height: 32px;
+  width: 32px;
+}
+
+.social-media-links-container ul li a i:hover{
+  color: rgba(0, 0, 0, 0.87);
+  opacity: 0.5;
+  list-style-position: outside;
+  transform-origin: 12px 12px;
+  transition: all .2s ease;
+  transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+}
+
+.contact-us-container{
+  box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+  padding: 32px 0;
+}
+
+.lower-links-container{
+  padding: 0 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.lower-links-container .privacy{
+  padding-left: 0;
+}
+
+.lower-links-container ul{
+  list-style-type: none;
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 4px;
+  padding-left: 0;
+}
+
+.lower-links-container ul li a{
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+.lower-links-container ul li a:hover{
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lower-links-container span{
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.lower-links-container p{
+  color: rgba(0, 0, 0, 0.56);
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 16px 0;
+  margin: 0;
+}
